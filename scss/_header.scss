@@ -3,7 +3,7 @@ $color-header: red;
 
 // Mixin para estilos de enlace del menú
 @mixin menu-link-style {
-  text-decoration: none;
+  text-decoration: solid;
   color: #fff;
 }
 
@@ -12,7 +12,7 @@ header {
   background-color: $color-header;
   color: #fff;
   padding: 20px;
-  display: flex;
+ 
   justify-content: space-between;
   align-items: center;
 
@@ -34,7 +34,7 @@ header {
 
     li {
       display: inline-block;
-      margin-left: 10px;
+      margin-left: 20px;
 
       a {
         @include menu-link-style; // Uso del mixin para los enlaces del menú
