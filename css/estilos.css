@@ -190,7 +190,7 @@ main .custom-button:hover {
     float: none;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 319px) {
   main .vehiculos-section {
     flex-direction: column;
   }
