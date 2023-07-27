@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* Estilos generales */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Encabezado */
+header {
+  background-color: red;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo img {
+  width: 150px;
+}
+header .menu:hover {
+  text-align: right;
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 0 10px red;
+}
+header .menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header .menu ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+header .menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  clear: both;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .social-media {
+  float: left;
+}
+footer .social-media a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .contact-info {
+  float: right;
+}
+footer .contact-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .contact-info ul li {
+  display: inline;
+  margin-left: 10px;
+}
+footer .contact-info ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .contact-info p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Estilos del body */
+body {
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Mixin para estilos de texto */
+/* Mixin para estilos de botón */
+/* Contenido principal */
+main {
+  padding: 20px;
+  overflow: hidden;
+  /* Estilos para la sección de vehículos */
+  /* Media Queries */
+}
+main section {
+  margin-bottom: 40px;
+}
+main h1, main h2, main h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+main .vehiculos-section {
+  background-color: #f2f2f2;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+main .vehiculos-section .contacto {
+  font-weight: bold;
+  color: #333;
+}
+main .vehiculos-section .contacto label {
+  margin-bottom: 5px;
+  display: block;
+}
+main .vehiculos-section .contacto input, main .vehiculos-section .contacto textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+main .vehiculos-section .contacto button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+main .vehiculos-section .logo div {
+  font-weight: bold;
+  color: #333;
+}
+main .vehiculos-section .logo div h2 {
+  font-weight: bold;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+main .vehiculos-section .vehiculos-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+main .vehiculos-section .vehiculos-container .vehiculo {
+  flex: 1;
+  margin-right: 0px;
+}
+main .vehiculos-section .vehiculos-container .vehiculo img {
+  width: 100%;
+  border-radius: 5px;
+}
+main .noticias-container {
+  width: 50%;
+  float: left;
+}
+main .video-container {
+  width: 50%;
+  float: right;
+}
+main .video-container iframe {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  main .logo img {
+    width: 100px;
+  }
+  main .menu {
+    display: none;
+  }
+  main .logo div {
+    padding: 10px;
+  }
+  main .noticias-container,
+  main .video-container {
+    width: 100%;
+    float: none;
+  }
+  main .video-container {
+    float: none;
+  }
+}
+@media (max-width: 600px) {
+  main .vehiculos-section {
+    flex-direction: column;
+  }
+  main .vehiculos-container {
+    flex-direction: column;
+  }
+  main .vehiculos-container .vehiculo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  main .video-container iframe {
+    width: 100%;
+  }
+}
+
+/* Estilos para el botón .fcc-btn */
+.fcc-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para los títulos h1, h2, h3 */
+h1, h2, h3 {
+  font-weight: bold;
+  color: #333;
+}
+
+/*# sourceMappingURL=estilos.css.map */
