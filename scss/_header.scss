@@ -1,41 +1,31 @@
-// Variables
-$color-header: red;
-
 // Mixin para estilos de enlace del menú
 @mixin menu-link-style {
   text-decoration: solid;
   color: #fff;
 }
-
 /* Encabezado */
 header {
   background-color: $color-header;
   color: #fff;
   padding: 20px;
- 
   justify-content: space-between;
   align-items: center;
-
   .logo img {
     width: 150px;
   }
-
   .menu:hover {
     text-align: right;
     transform: scale(1.1);
     cursor: pointer;
     box-shadow: 0 0 10px red;
   }
-
   .menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
-
     li {
       display: inline-block;
       margin-left: 20px;
-
       a {
         @include menu-link-style; // Uso del mixin para los enlaces del menú
       }

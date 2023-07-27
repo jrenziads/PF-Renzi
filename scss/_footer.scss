@@ -3,27 +3,23 @@
   text-decoration: none;
   color: #fff;
 }
-
 /* Pie de página */
 footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
   clear: both;
-
   .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-
   .social-media {
     float: left;
     a {
       @include footer-link-style; // Uso del mixin para los enlaces de redes sociales
     }
   }
-
   .contact-info {
     float: right;
     ul {
