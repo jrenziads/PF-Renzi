@@ -7,7 +7,7 @@ body {
 /* Mixin para estilos de texto */
 @mixin text-emphasis {
   font-weight: bold;
-  color: #333;
+  color: $color-foot;
 }
 /* Mixin para estilos de botón */
 @mixin button-style {
@@ -88,10 +88,10 @@ main {
   }
     /* Color del boton Enviar de contacto */
   .custom-button {
-    background-color: #ff0000;
+    background-color:$color-header;
   }
   .custom-button:hover {
-    background-color:#333; /* Cambia el color al mismo color que el footer (perdon pero soy daltonico) */
+    background-color:$color-foot; /* Cambia el color al mismo color que el footer (perdon pero soy daltonico) */
   }
   /* Media Queries */
   @media (max-width: 768px) {
