@@ -2,12 +2,14 @@ $colors: (
   primary: #4CAF50,
   secondary: #dc3545,
 );
+
 $text-styles: (
   emphasis: (
     font-weight: bold,
     color: map-get($colors, secondary),
   ),
 );
+
 $button-styles: (
   default: (
     padding: 10px 20px,

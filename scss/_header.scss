@@ -27,7 +27,7 @@ header {
       display: inline-block;
       margin-left: 20px;
       a {
-        @include menu-link-style; // Uso del mixin para los enlaces del menú
+        @include menu-link-style; // Mixin para los enlaces del menú
       }
     }
   }

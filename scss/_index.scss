@@ -4,19 +4,22 @@ body {
   margin: 0;
   padding: 0;
 }
+
 /* Mixin para estilos de texto */
 @mixin text-emphasis {
   font-weight: bold;
-  color: $color-foot;
+  color: map-get($colors, secondary);
 }
+
 /* Mixin para estilos de botón */
 @mixin button-style {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: map-get($colors, primary);
   color: white;
   border: none;
   cursor: pointer;
 }
+
 /* Contenido principal */
 main {
   padding: 20px;
@@ -86,12 +89,12 @@ main {
       width: 100%;
     }
   }
-    /* Color del boton Enviar de contacto */
+  /* Color del boton Enviar de contacto */
   .custom-button {
-    background-color:$color-header;
+    background-color: $color-header; // Asegúrate de que $color-header esté definido en _variables.scss
   }
   .custom-button:hover {
-    background-color:$color-foot; /* Cambia el color al mismo color que el footer (perdon pero soy daltonico) */
+    background-color: $color-foot; /* Cambia el color al mismo color que el footer (perdon pero soy daltonico) */
   }
   /* Media Queries */
   @media (max-width: 768px) {

@@ -33,7 +33,7 @@ main .vehiculos-section {
 }
 main .vehiculos-section .contacto {
   font-weight: bold;
-  color: #333;
+  color: #dc3545;
 }
 main .vehiculos-section .contacto label {
   margin-bottom: 5px;
@@ -55,11 +55,11 @@ main .vehiculos-section .contacto button {
 }
 main .vehiculos-section .logo div {
   font-weight: bold;
-  color: #333;
+  color: #dc3545;
 }
 main .vehiculos-section .logo div h2 {
   font-weight: bold;
-  color: #333;
+  color: #dc3545;
   padding: 20px;
   text-align: center;
 }
@@ -140,7 +140,7 @@ main .custom-button:hover {
 /* Estilos para los títulos h1, h2, h3 */
 h1, h2, h3 {
   font-weight: bold;
-  color: #333;
+  color: #dc3545;
 }
 
 /* Estilos generales */
