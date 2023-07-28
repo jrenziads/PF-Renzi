@@ -199,6 +199,7 @@ footer .social-media {
 footer .social-media a {
   text-decoration: none;
   color: #fff;
+  margin-right: 15px;
 }
 footer .contact-info {
   float: right;
@@ -215,6 +216,7 @@ footer .contact-info ul li {
 footer .contact-info ul li a {
   text-decoration: none;
   color: #fff;
+  margin-right: 15px;
 }
 footer .contact-info p {
   margin: 0;
